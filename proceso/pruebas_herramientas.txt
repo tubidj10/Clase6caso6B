@@ -1,0 +1,8 @@
+Comando: python3 tests/test_tools.py
+...
+----------------------------------------------------------------------
+Ran 3 tests in 0.000s
+
+OK
+
+Exit code: 0

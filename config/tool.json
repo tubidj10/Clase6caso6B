@@ -1,0 +1,23 @@
+{
+  "type": "function",
+  "name": "read_message",
+  "description": "Leer un correo de demostración sin visitar enlaces ni enviar mensajes.",
+  "strict": true,
+  "parameters": {
+    "type": "object",
+    "properties": {
+      "scenario": {
+        "type": "string",
+        "enum": [
+          "01",
+          "02",
+          "03"
+        ]
+      }
+    },
+    "required": [
+      "scenario"
+    ],
+    "additionalProperties": false
+  }
+}

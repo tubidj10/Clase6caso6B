@@ -1,0 +1,54 @@
+{
+  "type": "object",
+  "properties": {
+    "scenario": {
+      "type": "string"
+    },
+    "classification": {
+      "type": "string",
+      "enum": [
+        "benign",
+        "suspicious",
+        "educational",
+        "uncertain"
+      ]
+    },
+    "evidence": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "explanation": {
+      "type": "string"
+    },
+    "follow_links": {
+      "type": "boolean",
+      "enum": [
+        false
+      ]
+    },
+    "send_messages": {
+      "type": "boolean",
+      "enum": [
+        false
+      ]
+    },
+    "requires_human_approval": {
+      "type": "boolean",
+      "enum": [
+        true
+      ]
+    }
+  },
+  "required": [
+    "scenario",
+    "classification",
+    "evidence",
+    "explanation",
+    "follow_links",
+    "send_messages",
+    "requires_human_approval"
+  ],
+  "additionalProperties": false
+}

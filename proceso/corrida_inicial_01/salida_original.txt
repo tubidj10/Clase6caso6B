@@ -1,0 +1,1 @@
+{"scenario":"01","classification":"benign","evidence":["Asunto: Reunión semanal","\"No se requieren credenciales ni pagos.\""],"explanation":"Recordatorio interno sin solicitudes de credenciales, pagos ni enlaces; lenguaje claro y específico sobre reunión.","follow_links":false,"send_messages":false,"requires_human_approval":true}

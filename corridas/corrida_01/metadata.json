@@ -1,0 +1,31 @@
+{
+  "timestamp_utc": "2026-09-09T17:43:30.776574+00:00",
+  "requested_model": "gpt-5-mini-2025-08-07",
+  "returned_models": [
+    "gpt-5-mini-2025-08-07",
+    "gpt-5-mini-2025-08-07"
+  ],
+  "api_calls": 2,
+  "input_tokens": 1392,
+  "output_tokens": 130,
+  "cost_usd": 0.000608,
+  "latency_seconds": 3.7129468329949304,
+  "status": "validated",
+  "source_sha256": {
+    "src/main.py": "d48642ffbdf3eb5c1c59255d71bba5b1203cbf2c29be7a7f5ba865e84debf4e1",
+    "src/runtime.py": "eb4ffd4caaf5f5c4f93e79107e7ac458cd581579e3393de906266a8184ac6a28",
+    "src/tools.py": "b40220f07a84fa415f08c353de4c30b588545454c131a1bfd5b4055172323fec",
+    "prompts/system_prompt.md": "da5e07cf11338b4b05d5c270f23298df6f6449470da65b57b0932a0b1661a137",
+    "prompts/user_prompt.md": "4489fe8239b58f1373bc58d76ab718de5b65d3a661de24f52f0a20f973e332db",
+    "datos/correo_01.json": "520ba2daf5724c8b2b3a891788023dfa5cf617e3f02c3fe48a02a7ce3888859d",
+    "datos/correo_02.json": "5324f27e64d4e82475f3689a77a97c46f5048a5571b9569c91a2613d75bc395a",
+    "datos/correo_03.json": "93ec5c7f8b9a85fa140e1c6ab26720aac9010bdde2525dd3d4128f16a2790900"
+  },
+  "pricing": {
+    "input_per_million_usd": 0.25,
+    "cached_input_per_million_usd": 0.025,
+    "output_per_million_usd": 2.0,
+    "source": "https://developers.openai.com/api/docs/models/gpt-5-mini",
+    "checked_date": "2026-09-09"
+  }
+}
